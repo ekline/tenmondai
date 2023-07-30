@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: MIT
+
+cc_binary(
+    name = "tenmond",
+    srcs = ["main.cc"],
+    deps = ["//src/base"]
+)

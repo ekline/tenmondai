@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: MIT
+
+cc_library(
+    name = "base",
+    srcs = [],
+    visibility = ["//visibility:public"],
+    hdrs = ["macros.h"]
+)

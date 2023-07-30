@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: MIT
+
+cc_library(
+    name = "io",
+    srcs = [],
+    visibility = ["//visibility:public"],
+    hdrs = [
+        "fd.h",
+        "io.h",
+    ]
+)
